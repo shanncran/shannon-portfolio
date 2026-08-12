@@ -20,11 +20,11 @@ const featuredProjects = [
   },
   {
     number: "03",
-    title: "MemSysExplorer",
-    type: "Computer architecture · Research",
+    title: "Mojo Story Composer",
+    type: "Software · Front-end · Back-end",
     mark: "ME",
     description:
-      "Memory-system research using profilers and SPEC2017 benchmarks to create a useful dataset.",
+      "A web-based application for creating and managing stories with a focus on user experience and performance.",
   },
 ];
 
@@ -45,29 +45,29 @@ export default function Home() {
 
       <section className="hero shell">
         <div className="hero-kicker">
-          <span>Portfolio / 2025</span>
+          <span>Portfolio / 2026</span>
           <span>Computer Engineering</span>
         </div>
         <div className="hero-grid">
           <div className="hero-copy">
             <p className="overline">Hello, I&apos;m Shannon.</p>
             <h1>
-              I build systems<br />
-              <em>that make sense.</em>
+              Hardware<br />
+              <em>& Software</em>
             </h1>
             <p className="lede">
-              I&apos;m a Computer Engineering student at Tufts University focused on
-              embedded systems, computer architecture, and the details that make
-              technology work beautifully.
+              I am a computer engineering student at Tufts University.
+              I focus on building systems that combine hardware and software, from low-level design to high-level applications.
             </p>
             <div className="hero-actions">
               <Link className="button" href="/projects">Explore projects <span>↗</span></Link>
+              <a className="hero-resume-button" href="/resume.pdf" download>Download resume <span>↓</span></a>
               <a className="quiet-link" href="#about">About me <span>↓</span></a>
             </div>
           </div>
           <div className="profile-panel" aria-label="Shannon Crandley profile">
             <div className="profile-grid" />
-            <div className="profile-label"><span>Engineer profile</span><span>01 / 01</span></div>
+            <div className="profile-label"><span>Computer Engineer</span><span>Tufts University</span></div>
             <Image src="/images/shannon-portrait.png" alt="Shannon Crandley" width={220} height={220} priority />
             <div className="profile-caption"><span>SHANNON CRANDLEY</span><span>SHE / HER</span></div>
           </div>
@@ -77,21 +77,20 @@ export default function Home() {
       <section className="about-section shell" id="about">
         <div className="section-label"><span>01</span><span>About</span></div>
         <div className="about-layout">
-          <h2>Engineering at the intersection of <em>hardware, software, and curiosity.</em></h2>
+          <h2>Engineering at the intersection of <em>hardware and software.</em></h2>
           <div className="about-detail">
             <p>
-              I&apos;m a junior at Tufts University studying Computer Engineering with a
+              I&apos;m a senior at Tufts University studying Computer Engineering with a
               concentration in Computer Architecture. I enjoy moving between a
-              low-level problem and the larger system around it.
+              building systems that combine hardware and software, from low-level design to high-level applications.
             </p>
             <p>
-              Right now, I&apos;m assisting in a research lab testing memory systems on
-              different benchmarks, including SPEC2017.
+              This summer, I interned at MojoTech, where I built an internal web application for building user stories. 
             </p>
           </div>
         </div>
         <div className="skills-strip" aria-label="Technical skills">
-          <span>VHDL</span><span>FPGA</span><span>Embedded systems</span><span>Computer architecture</span><span>Python</span><span>Java</span>
+          <span>VHDL</span><span>FPGA</span><span>C++</span><span>C</span><span>Embedded systems</span><span>Computer architecture</span><span>Python</span><span>Java</span><span>Typescript</span>
         </div>
       </section>
 
@@ -114,10 +113,10 @@ export default function Home() {
 
       <section className="contact-section shell" id="contact">
         <div><p className="overline">03 / Contact</p><h2>Let&apos;s build<br /><em>something useful.</em></h2></div>
-        <a className="contact-link" href="mailto:hello@example.com">hello@example.com <span>↗</span></a>
+        <a className="contact-link" href="mailto:shannon.crandley@gmail.com">shannon.crandley@gmail.com <span>↗</span></a>
       </section>
 
-      <footer className="site-footer shell"><span>© 2025 Shannon Crandley</span><span>Built with Next.js + TypeScript</span><a href="#top">Back to top ↑</a></footer>
+      <footer className="site-footer shell"><span>© 2026 Shannon Crandley</span><span>Built with Next.js + TypeScript</span><a href="#top">Back to top ↑</a></footer>
     </main>
   );
 }

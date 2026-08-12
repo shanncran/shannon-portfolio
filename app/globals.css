@@ -41,6 +41,9 @@ a { color: inherit; }
 .button span, .all-projects span, .contact-link span { margin-left: 1rem; }
 .quiet-link { color: var(--muted); font: .72rem var(--mono); text-decoration: none; }
 .quiet-link:hover { color: var(--purple-bright); }
+.hero-resume-button { border: 1px solid var(--purple); color: var(--purple-bright); padding: .85rem 1rem; font: .7rem var(--mono); letter-spacing: .07em; text-decoration: none; text-transform: uppercase; }
+.hero-resume-button:hover { background: var(--purple); color: var(--void); }
+.hero-resume-button span { margin-left: .8rem; }
 
 .profile-panel { position: relative; display: grid; min-height: 410px; place-items: center; overflow: hidden; border: 1px solid var(--line); background: radial-gradient(circle at 65% 70%, #24173a 0, transparent 48%), var(--panel); }
 .profile-grid { position: absolute; inset: 0; opacity: .55; background-image: linear-gradient(var(--line) 1px, transparent 1px), linear-gradient(90deg, var(--line) 1px, transparent 1px); background-size: 42px 42px; mask-image: linear-gradient(to bottom, black, transparent); }

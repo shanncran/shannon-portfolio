@@ -13,9 +13,9 @@ export default function ProjectsPage() {
   return (
     <main>
       <header className="site-header"><Link className="wordmark" href="/">SC<span>_</span></Link><nav><Link href="/">Home</Link><Link className="active" href="/projects">Projects</Link><Link href="/#contact">Contact</Link></nav><p className="system-status"><i /> Project archive</p></header>
-      <section className="projects-hero shell"><p className="overline">Archive / 2022—2025</p><h1>Systems, <em>studies,</em><br />and prototypes.</h1><p>Six projects across computer architecture, embedded systems, hardware, mobile software, and research.</p></section>
+      <section className="projects-hero shell"><p className="overline">Archive / 2022—2025</p><h1>Systems, <em>studies,</em><br />and prototypes.</h1><p>Seven projects across computer architecture, embedded systems, hardware, software, and research.</p></section>
       <section className="project-list shell">{projects.map(([number, title, tags, description, mark]) => <article className="project-row" key={number}><span className="project-number">{number}</span><div className="project-mark">{mark}</div><div className="project-info"><p>{tags}</p><h2>{title}</h2><span>{description}</span></div><span className="project-arrow">↗</span></article>)}</section>
-      <footer className="site-footer shell"><span>© 2025 Shannon Crandley</span><Link href="/">Home</Link><a href="#top">Back to top ↑</a></footer>
+      <footer className="site-footer shell"><span>© 2026 Shannon Crandley</span><Link href="/">Home</Link><a href="#top">Back to top ↑</a></footer>
     </main>
   );
 }
