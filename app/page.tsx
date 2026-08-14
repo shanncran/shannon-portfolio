@@ -72,7 +72,7 @@ export default function Home() {
             </p>
             <div className="hero-actions">
               <Link className="button" href="/projects">Explore projects <span>↗</span></Link>
-              <a className="button" href="/resume.pdf" download>Download resume <span>↓</span></a>
+              <a className="button" href="/api/resume" download="Shannon-Crandley-Resume.pdf">Download resume <span>↓</span></a>
               <a className="quiet-link" href="#about">About me <span>↓</span></a>
             </div>
           </div>
