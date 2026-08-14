@@ -92,8 +92,8 @@ export default function Home() {
           <div className="about-detail">
             <p>
               I&apos;m a senior at Tufts University studying Computer Engineering with a
-              concentration in Computer Architecture. I enjoy moving between
-              building systems that combine hardware and software, from low-level design to high-level applications.
+              concentration in Computer Architecture. I enjoy building systems that combine hardware and software,
+              from low-level design to high-level applications.
             </p>
             <p>
               This summer, I interned at MojoTech, where I built an internal web application for building user stories. 
@@ -101,7 +101,7 @@ export default function Home() {
           </div>
         </div>
         <div className="skills-strip" aria-label="Technical skills">
-          <span>VHDL</span><span>FPGA</span><span>C++</span><span>C</span><span>Microcontrollers</span><span>Embedded systems</span><span>Computer architecture</span><span>Python</span><span>Java</span><span>Typescript</span>
+          <span>VHDL</span><span>FPGA</span><span>C++</span><span>C</span><span>Microcontrollers</span><span>Embedded systems</span><span>Computer architecture</span><span>Python</span><span>Java</span><span>TypeScript</span>
         </div>
       </section>
 
