@@ -92,7 +92,7 @@ export default function Home() {
           <div className="about-detail">
             <p>
               I&apos;m a senior at Tufts University studying Computer Engineering with a
-              concentration in Computer Architecture. I enjoy moving between a
+              concentration in Computer Architecture. I enjoy moving between
               building systems that combine hardware and software, from low-level design to high-level applications.
             </p>
             <p>
