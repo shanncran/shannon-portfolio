@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const projects = [
-  ["01", "ES-4 Nightmare", "VHDL · FPGA · VGA", "A school-wide showcase game built with a VGA display, FPGA, and NES controller. I led much of the VHDL, display, and sprite movement work.", "PX", "/images/projects/pacman.png", "github", "https://github.com/shanncran/pacman"],
+  ["01", "Pac-Man on an FPGA", "VHDL · FPGA · VGA", "A school-wide showcase game built with a VGA display, FPGA, and NES controller. I led much of the VHDL, display, and sprite movement work.", "PX", "/images/projects/pacman.png", "github", "https://github.com/shanncran/pacman"],
   ["02", "Voice Synthesizer", "Embedded systems · Microcontroller", "A embedded systems project using a microphone, microcontroller, and speaker to alter and synthesize audio inputs.", "VS", "/images/projects/synth.png", "github", "https://github.com/shanncran/Embedded_Systems_Final"],
   ["03", "Mojo Story Composer", "TypeScript · SvelteKit · Front-end · Back-end", "A web-based application for creating and managing stories to promote to Jira with a focus on user experience and performance.", "SC", "/images/projects/story-composer.png", "slides", "/mojo-story-composer.pptx"],
   ["04", "Smart Activity Monitoring App", "Android Studio · Java", "An Android activity app that lets users build a profile, set goals, log exercises, and receive tailored suggestions.", "AA", "/images/projects/sama.png", "github", "https://github.com/shanncran/SAMA"],
