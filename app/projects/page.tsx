@@ -54,7 +54,7 @@ export default function ProjectsPage() {
   return (
     <main>
       <header className="site-header"><Link className="wordmark" href="/">SC<span>_</span></Link><nav><Link href="/">Home</Link><Link className="active" href="/projects">Projects</Link><Link href="/#contact">Contact</Link></nav><p className="system-status"><i /> Project archive</p></header>
-      <section className="projects-hero shell"><p className="overline">Projects / 2024—2026</p><h1>Systems, <em>studies,</em><br />and projects.</h1><p>Seven projects across computer architecture, embedded systems, hardware, software, and research.</p></section>
+      <section className="projects-hero shell"><p className="overline">Projects / 2024—2026</p><h1>Systems, <em>studies,</em><br />and projects.</h1><p>Eight projects across computer architecture, embedded systems, hardware, software, and research.</p></section>
       <section className="project-list shell">
         {projects.map((project) => <ProjectRow key={project[0]} project={project} />)}
       </section>
