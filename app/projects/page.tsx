@@ -9,6 +9,7 @@ const projects = [
   ["05", "Pipelined MIPS Processor", "VHDL · Computer organization", "A five-stage pipelined MIPS processor built for computer organization coursework, including forwarding and stalling.", "MP", "/images/projects/mips.png", "website", "https://www.cs.tufts.edu/~nr/toolkit/specs/mips.html"],
   ["06", "Autonomous Robot", "Arduino · Sensors · Robotics", "A team-built robot that follows lanes using color sensing and distance sensing with photodiode. The bot had to comminunicate with another bot through a server.", "AR", "/images/projects/junior-design.png", "github", "https://github.com/shanncran/Junior_Design"],
   ["07", "MemSysExplorer Research", "Memory systems · SPEC2017", "Research support for a MemSysExplorer dataset, using memory profilers to run and analyze benchmark workloads.", "ME", "/images/projects/memsys.png", "pdf", "/Shannon_Crandley_Directed_Study.pdf"],
+  ["08", "Robotic Computing on FPGAs Research", "FPGA · Robotics", "Research project about robotic computing on FPGAs, specifically about optimization on planning algorithms.", "ME", "/images/projects/robotics.png", "pdf", "/ee156_final_paper.pdf"],
 ];
 
 function GithubIcon() {
