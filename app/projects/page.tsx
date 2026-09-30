@@ -10,6 +10,7 @@ const projects = [
   ["06", "Autonomous Robot", "Arduino · Sensors · Robotics", "A team-built robot that follows lanes using color sensing and distance sensing with photodiode. The bot had to comminunicate with another bot through a server.", "AR", "/images/projects/junior-design.png", "github", "https://github.com/shanncran/Junior_Design"],
   ["07", "MemSysExplorer Research", "Memory systems · SPEC2017", "Research support for a MemSysExplorer dataset, using memory profilers to run and analyze benchmark workloads.", "ME", "/images/projects/memsys.png", "pdf", "/Shannon_Crandley_Directed_Study.pdf"],
   ["08", "Robotic Computing on FPGAs Research", "FPGA · Robotics", "Research project about robotic computing on FPGAs, specifically about optimization on planning algorithms.", "ME", "/images/projects/robotics.png", "pdf", "/ee156_final_paper.pdf"],
+  ["09", "Senior Capstone: Robot Pose Estimation", "TurtleBot 4 · Create 3 · Raspberry Pi", "A robotics capstone pairing a TurtleBot 4 with an iRobot Create 3 and Raspberry Pi to estimate the robot's x and y position and heading angle.", "RP", "/images/projects/robotics.png", "", ""],
 ];
 
 function GithubIcon() {
@@ -54,7 +55,7 @@ export default function ProjectsPage() {
   return (
     <main>
       <header className="site-header"><Link className="wordmark" href="/">SC<span>_</span></Link><nav><Link href="/">Home</Link><Link className="active" href="/projects">Projects</Link><Link href="/#contact">Contact</Link></nav><p className="system-status"><i /> Project archive</p></header>
-      <section className="projects-hero shell"><p className="overline">Projects / 2024—2026</p><h1>Systems, <em>studies,</em><br />and projects.</h1><p>Eight projects across computer architecture, embedded systems, hardware, software, and research.</p></section>
+      <section className="projects-hero shell"><p className="overline">Projects / 2024—2026</p><h1>Systems, <em>studies,</em><br />and projects.</h1><p>Nine projects across computer architecture, embedded systems, hardware, software, and research.</p></section>
       <section className="project-list shell">
         {projects.map((project) => <ProjectRow key={project[0]} project={project} />)}
       </section>

@@ -105,9 +105,31 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="capstone-section shell" id="capstone">
+        <div className="section-label"><span>02</span><span>Senior capstone</span></div>
+        <div className="capstone-layout">
+          <div className="capstone-visual">
+            <Image src="/images/projects/turtlebot.jpg" alt="Robotics project illustration" width={720} height={540} />
+            <span>POSE / X · Y · θ</span>
+          </div>
+          <div className="capstone-copy">
+            <p className="work-type">Robotics · Localization · Embedded systems</p>
+            <h2>Estimating a robot&apos;s pose <em>in space.</em></h2>
+            <p>
+              For my senior capstone, I&apos;m pairing a TurtleBot 4 with an iRobot Create 3 and a Raspberry Pi to estimate the robot&apos;s pose as it moves through space. The system focuses on its x and y position and its heading angle, bringing the robot platform and onboard computing together for spatial tracking. The project will be complete in April 2027.
+            </p>
+            <div className="capstone-specs" aria-label="Capstone platform and pose outputs">
+              <div><span>01 / Platform</span><b>TurtleBot 4 + Create 3</b></div>
+              <div><span>02 / Computing</span><b>Raspberry Pi · Python</b></div>
+              <div><span>03 / Estimated pose</span><b>x · y · heading</b></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="featured-section shell">
         <div className="section-heading">
-          <div className="section-label"><span>02</span><span>Selected work</span></div>
+          <div className="section-label"><span>03</span><span>Selected work</span></div>
           <Link href="/projects" className="all-projects">All projects <span>↗</span></Link>
         </div>
         <div className="featured-grid">
@@ -123,7 +145,7 @@ export default function Home() {
       </section>
 
       <section className="contact-section shell" id="contact">
-        <div><p className="overline">03 / Contact</p><h2>Let&apos;s<br /><em>Connect.</em></h2></div>
+        <div><p className="overline">04 / Contact</p><h2>Let&apos;s<br /><em>Connect.</em></h2></div>
         <div className="contact-links">
           <div className="contact-socials">
             <a href="https://github.com/shanncran" target="_blank" rel="noreferrer"><GithubIcon /><span>@shanncran</span><b>↗</b></a>

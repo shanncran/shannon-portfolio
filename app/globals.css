@@ -60,6 +60,20 @@ a { color: inherit; }
 .skills-strip { display: flex; flex-wrap: wrap; gap: .7rem; margin-top: 4rem; }
 .skills-strip span { border: 1px solid var(--line); color: var(--muted); padding: .55rem .7rem; font: 1.1rem var(--mono); text-transform: uppercase; }
 
+.capstone-section { padding-top: 6rem; padding-bottom: 7rem; border-top: 1px solid var(--line); background: radial-gradient(ellipse at 12% 75%, #171020 0, transparent 44%), var(--void); }
+.capstone-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 7vw; align-items: center; margin-top: 3rem; }
+.capstone-visual { position: relative; min-height: 350px; overflow: hidden; border: 1px solid var(--line); background: var(--panel); }
+.capstone-visual img { display: block; width: 100%; height: 100%; min-height: 350px; object-fit: cover; opacity: .8; }
+.capstone-visual span { position: absolute; right: 1rem; bottom: 1rem; border: 1px solid var(--purple); background: rgba(5,5,5,.85); color: var(--purple-bright); padding: .7rem .85rem; font: .7rem var(--mono); letter-spacing: .08em; }
+.capstone-copy .work-type { margin-top: 0; }
+.capstone-copy h2 { max-width: 35rem; margin: 1rem 0; font: 500 clamp(2.4rem,4.5vw,4.8rem)/.98 var(--mono); letter-spacing: -.08em; }
+.capstone-copy h2 em { color: var(--purple); font: inherit; }
+.capstone-copy > p:not(.work-type) { max-width: 36rem; color: #cbc3d3; font-size: 1rem; line-height: 1.65; }
+.capstone-specs { display: grid; grid-template-columns: repeat(3,1fr); gap: .75rem; margin-top: 2rem; }
+.capstone-specs div { display: flex; flex-direction: column; gap: .7rem; border-top: 1px solid var(--line); padding-top: .8rem; }
+.capstone-specs span { color: var(--purple); font: .58rem var(--mono); text-transform: uppercase; }
+.capstone-specs b { color: var(--paper); font: 500 .76rem/1.4 var(--mono); }
+
 .featured-section { padding-top: 7rem; padding-bottom: 7rem; background: var(--panel); }
 .section-heading { display: flex; align-items: center; justify-content: space-between; }
 .all-projects { color: var(--muted); font: .7rem var(--mono); text-decoration: none; text-transform: uppercase; }
@@ -107,7 +121,7 @@ a { color: inherit; }
 .github-icon { width: 1.2rem; height: 1.2rem; fill: currentColor; }
 
 @media (max-width:800px) {
-  .site-header { height: 63px; }.system-status { display: none; }.hero-grid,.about-layout { grid-template-columns: 1fr; gap: 3rem; }.hero { padding-bottom: 4rem; }.hero-grid { padding-top: 5rem; }.profile-panel { min-height: 340px; }.featured-grid { grid-template-columns: 1fr; }.work-visual { min-height: 220px; }.contact-section { display: block; padding-top: 5rem; padding-bottom: 5rem; }.contact-link { display: inline-block; margin-top: 3rem; }.project-row { grid-template-columns: 2.5rem 5rem 1fr; gap: 1rem; }.project-mark { width: 100%; height: auto; }.project-arrow { display: none; }.site-footer { flex-wrap: wrap; }
+  .site-header { height: 63px; }.system-status { display: none; }.hero-grid,.about-layout,.capstone-layout { grid-template-columns: 1fr; gap: 3rem; }.hero { padding-bottom: 4rem; }.hero-grid { padding-top: 5rem; }.profile-panel { min-height: 340px; }.featured-grid { grid-template-columns: 1fr; }.work-visual { min-height: 220px; }.capstone-visual,.capstone-visual img { min-height: 260px; }.capstone-specs { grid-template-columns: 1fr; }.contact-section { display: block; padding-top: 5rem; padding-bottom: 5rem; }.contact-link { display: inline-block; margin-top: 3rem; }.project-row { grid-template-columns: 2.5rem 5rem 1fr; gap: 1rem; }.project-mark { width: 100%; height: auto; }.project-arrow { display: none; }.site-footer { flex-wrap: wrap; }
 }
 @media (max-width:520px) {
   .shell { padding-right: 1.25rem; padding-left: 1.25rem; }.site-header { padding: 0 1.25rem; }.site-header nav { gap: .9rem; font-size: .62rem; }.hero-kicker { font-size: .55rem; }.hero h1,.projects-hero h1 { font-size: 3.4rem; }.hero-actions { gap: 1.3rem; }.about-section,.featured-section { padding-top: 5rem; padding-bottom: 5rem; }.project-row { grid-template-columns: 2rem 1fr; }.project-mark { display: grid; width: 100%; height: auto; }.project-info h2 { font-size: 1.25rem; }.project-info span { font-size: .9rem; }.site-footer { font-size: .55rem; }
