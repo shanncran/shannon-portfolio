@@ -79,7 +79,7 @@ export default function Home() {
           <div className="profile-panel" aria-label="Shannon Crandley profile">
             <div className="profile-grid" />
             <div className="profile-label"><span>Computer Engineer</span><span>Tufts University</span></div>
-            <Image src="/images/headshot.jpg" alt="Shannon Crandley" width={220} height={220} priority />
+            <Image src="/images/headshot.jpg" alt="Shannon Crandley" width={220} height={200} priority />
             <div className="profile-caption"><span>SHANNON CRANDLEY</span><span>SHE / HER</span></div>
           </div>
         </div>

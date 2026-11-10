@@ -44,7 +44,7 @@ a { color: inherit; }
 
 .profile-panel { position: relative; display: grid; min-height: 410px; place-items: center; overflow: hidden; border: 1px solid var(--line); background: radial-gradient(circle at 65% 70%, #24173a 0, transparent 48%), var(--panel); }
 .profile-grid { position: absolute; inset: 0; opacity: .55; background-image: linear-gradient(var(--line) 1px, transparent 1px), linear-gradient(90deg, var(--line) 1px, transparent 1px); background-size: 42px 42px; mask-image: linear-gradient(to bottom, black, transparent); }
-.profile-panel img { position: relative; z-index: 1; width: min(57%,245px); height: auto; border: 1px solid var(--purple-bright); filter: grayscale(1) contrast(1.08); }
+.profile-panel img { position: relative; z-index: 1; width: min(57%,245px); aspect-ratio: 1; height: auto; object-fit: cover; object-position: center 20%; border: 1px solid var(--purple-bright); filter: contrast(1.08); }
 .profile-label, .profile-caption { position: absolute; z-index: 2; right: 1rem; left: 1rem; }
 .profile-label { top: 1rem; }
 .profile-caption { bottom: 1rem; color: var(--paper); }
